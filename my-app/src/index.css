@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Scribble&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-svh bg-mainLayout bg-cover bg-center bg-no-repeat font-['Nunito'] text-base-white;
+  }
+}
+
+@layer utilities {
+  .heading-hg {
+    @apply text-8xl font-extrabold leading-[100%];
+  }
+  .heading-xl {
+    @apply text-5xl font-extrabold leading-[120%];
+  }
+  .heading-lg {
+    @apply text-[2rem] font-bold leading-[140%];
+  }
+  .heading-md {
+    @apply text-xl font-bold leading-[140%];
+  }
+  .heading-sm {
+    @apply text-base font-bold leading-[140%];
+  }
+  .heading-xs {
+    @apply text-sm font-bold leading-[140%];
+  }
+  .text-lg {
+    @apply text-xl leading-[140%];
+  }
+  .text-md {
+    @apply text-base leading-[140%];
+  }
+  .text-small {
+    @apply text-sm leading-[140%];
+  }
+  .text-xsmall {
+    @apply text-xs leading-[140%];
+  }
+}
